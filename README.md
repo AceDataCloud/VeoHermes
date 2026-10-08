@@ -8,14 +8,14 @@ Veo 3.1 Fast text-to-video and image-to-video through your Ace Data Cloud accoun
 
 Requires Hermes **0.21.6 or newer** and an Ace Data Cloud API key with access to this service and sufficient Credits.
 
-This plugin has been prepared for the official Hermes catalog; listing is pending maintainer review. Until listed, install from the exact reviewed commit shown in the source pull request:
+Install a reviewed version from this repository using its full 40-character commit SHA:
 
 ```sh
 hermes plugins install https://github.com/AceDataCloud/VeoHermes --ref <reviewed-40-character-SHA>
 hermes config set ACEDATACLOUD_API_KEY '<your-api-key>'
 ```
 
-Obtain a key and check current service pricing at [Ace Data Cloud](https://platform.acedata.cloud). Enter the key only into your active Hermes profile; never put it into a chat prompt. Enable this plugin's toolset in `hermes tools` and start a new session. Once officially listed, the catalog install command will be `hermes plugins install acedatacloud-veo`.
+Obtain a key and check current service pricing at [Ace Data Cloud](https://platform.acedata.cloud). Enter the key only into your active Hermes profile; never put it into a chat prompt. Enable this plugin's toolset in `hermes tools` and start a new session. When this plugin is available in the official Hermes catalog, you can also install it with `hermes plugins install acedatacloud-veo`.
 
 ## Use
 
