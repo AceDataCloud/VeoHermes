@@ -22,7 +22,7 @@ hermes tools list
 
 ![应用密钥获取指引（英文界面原图），来源于已有 Ace 文档](https://raw.githubusercontent.com/AceDataCloud/NanoBananaDify/2522b2f57210597af2db866445319334a1677a23/_assets/tutorial/get-api-key-en.png)
 
-**每次操作立即消耗 Credits，不会出现 Hermes 审批提示。** 模型可以选择服务支持的高价模型、分辨率或数量选项。提示词和参考 URL 发送至 `api.acedata.cloud`。启用即允许模型使用密钥调用，schema 限制不等于预算。收费请求**不自动重试**；超时或送达未知时先查请求历史。使用同一任务 ID 恢复 pending 任务，查询不会新建生成。
+**主操作立即消耗 Credits，不会出现 Hermes 审批提示。** 模型可以选择服务支持的高价模型、分辨率或数量选项。提示词和参考 URL 发送至 `api.acedata.cloud`。启用即允许模型使用密钥调用，schema 限制不等于预算。收费请求**不自动重试**；超时或送达未知时先查请求历史。使用同一任务 ID 恢复 pending 任务，查询不会新建生成。
 
 ## 工具与共装
 
@@ -33,7 +33,7 @@ hermes tools list
 
 ## 单一源码与验收边界
 
-由 [canonical 媒体源码](https://github.com/AceDataCloud/AceDataCloudMediaHermes) 的 `dbe1fd897a7e93097d989bcb15fad554fd350135` 统一生成。`source-lock.json` 固定 transport/schema 的来源、哈希和名称映射，CI 用同一 commit 重新生成比较。runtime/schema 修复先交唯一源，再生成消费仓，不手写维护多套底座。原候选 spec 和历史实测证据保留在 `history/`。
+由 [canonical 媒体源码](https://github.com/AceDataCloud/AceDataCloudMediaHermes) 的 `4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7` 统一生成。`source-lock.json` 固定 transport/schema 的来源、哈希和名称映射，CI 用同一 commit 重新生成比较。runtime/schema 修复先交唯一源，再生成消费仓，不手写维护多套底座。原候选 spec 和历史实测证据保留在 `history/`。
 
 CI 包括 unittest 正常发现、Hermes 0.23.1 官方校验、按精确 SHA 正常 Git 安装、两种隔离模式的单独/共装注册和无效输入 dispatch。mock/宿主兼容不等于新收费请求、唯一账单、当前 GUI、默认预装或官方收录。
 

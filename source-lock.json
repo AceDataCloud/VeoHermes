@@ -1,6 +1,6 @@
 {
   "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
-  "canonical_commit": "dbe1fd897a7e93097d989bcb15fad554fd350135",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
   "generator": "scripts/export_service.py",
   "service": "veo",
   "consumer_repository": "https://github.com/AceDataCloud/VeoHermes",
@@ -23,14 +23,14 @@
     "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
     "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
     "services/veo.json": "8f2239b3649de924d5a728301308e54879fea07e65d8d37d55cad0621a4ce1ba",
-    "plugin.yaml": "05b4acc255914d3f3945e78d6a58631b062583d4409a086ee58455154c5dba9b",
+    "plugin.yaml": "dd5689be8ff35b91d4af97804bf0ac0f8460ed3944a9ebbdb7a6656917d0d36c",
     "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
     "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
     "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
     "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
     "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
-    ".github/workflows/validate.yml": "301b339107a400a91a0f840b65c73a379ab1f2b077e53969ca6ac16094c2ed1e",
-    "README.md": "5e17c6fdc63ce884ee5a024af491dbc9f0c972b2c875d1c4dfc5b47f6f7cc649",
-    "readme/README_zh_Hans.md": "97f99eb288017a6d5aced5f5322daa8cd2b539137f766e52966c61099fddb795"
+    ".github/workflows/validate.yml": "0e564527650db1077b4c483c10c54f171ea7488ac0292f9cb03e32da18306cfa",
+    "README.md": "490984a639ed89c8fe32fa3072901fc4e93610d0c27c441e5f6be4befd4074d0",
+    "readme/README_zh_Hans.md": "492d7b8b70aeea609cfcae6d46d24de9342bbb006d61923d7cad9aee78743444"
   }
 }
